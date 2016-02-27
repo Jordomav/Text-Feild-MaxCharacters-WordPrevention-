@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="textFeild.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--POST THIS TEXT INTO HTML-->
+<form>
+    <textarea  id='ta' name="ta" rows="6" style="width:340px;" onKeyDown="textCounter(this.form.ta,this.form.countDisplay), clean('ta');" onKeyUp="textCounter(this.form.ta,this.form.countDisplay), clean('ta');" id="user_post"></textarea>
+    <br>
+    <input readonly type="text" name="countDisplay" size="3" maxlength="3" value="250"> Characters Remaining
+    <button><span>Submit</span></button>
+</form>
+<!--POST THIS TEXT INTO HTML-->
+</body>
+</html>
